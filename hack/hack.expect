@@ -1,0 +1,6 @@
+spawn ../um.native ../mystery.um
+expect login:
+send "ftd\n"
+expect password:
+send "airplane\n"
+interact
